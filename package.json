@@ -1,6 +1,6 @@
 {
-  "name": "react-image-gallery",
-  "version": "1.2.7",
+  "name": "react-image-galleryx",
+  "version": "1.2.8",
   "description": "React carousel image gallery component with thumbnail and mobile support",
   "main": "./build/image-gallery.js",
   "scripts": {
@@ -56,6 +56,7 @@
     "eslint-plugin-react": "^7.23.1",
     "file-loader": "^6.2.0",
     "jest": "^26.6.3",
+    "lodash-es": "^4.17.21",
     "mini-css-extract-plugin": "^2.1.0",
     "postcss": "^8.2.10",
     "postcss-loader": "^5.2.0",
@@ -67,9 +68,10 @@
     "remove-files-webpack-plugin": "^1.4.5",
     "resize-observer-polyfill": "^1.5.0",
     "sass": "^1.35.2",
-    "lodash-es": "^4.17.21",
     "sass-loader": "^12.1.0",
     "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^5.3.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
     "url-loader": "^4.1.1",
     "webpack": "^5.30.0",
     "webpack-cli": "^4.6.0",
@@ -78,6 +80,5 @@
   "peerDependencies": {
     "react": "^16.0.0 || ^17.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
